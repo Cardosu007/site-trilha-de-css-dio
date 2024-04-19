@@ -8,15 +8,13 @@
     box-sizing: border-box;
 }
 
-body, html {
-    width: 100vw;
-    height: 100vh;
+body {
     font-family: "Raleway", Arial, Helvetica, sans-serif;
     background-color: black;
 }
 
 header {
-
+    width: 100vw;
     border-bottom: 1px solid #33A8DB80;
     padding-bottom: 60px;
 }
@@ -101,6 +99,7 @@ main h2 {
     color: white;
     margin-top: 80px;
     margin-bottom: 80px;
+    width: 100vw;
     height: 330px;
     text-align: center;
     padding-bottom: 0px;
