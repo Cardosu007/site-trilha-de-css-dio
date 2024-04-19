@@ -10,6 +10,7 @@
 body {
     font-family: "Raleway", Arial, Helvetica, sans-serif;
     background-color: black;
+    display: block;
 }
 
 header {
@@ -71,14 +72,6 @@ header button {
     padding: 16px 32px;
 }
 
-#course-content {
-    margin-top: 80px;
-    margin-bottom: 20px;
-    width: 100vw;
-    height: 350px;
-    text-align: center;
-}
-
 section {
     margin: 100px auto;
     unicode-bidi: isolate;
@@ -95,35 +88,63 @@ main h2 {
     margin-bottom: 24px;
 }
 
-div {
-    display: block;
-}
-
 main p {
     display: block;
     color: white;
-    box-sizing: border-box;
     margin: 0px;
 }
 
+  #course-content {
+    margin-top: 80px;
+    margin-bottom: 20px;
+    width: 100vw;
+    height: 330px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
 #course-content .modules-list {
+    display: grid;
+    justify-content: center;
     margin: 24px 0px;
 }
 
 #course-content .modules-list .module {
     color: white;
     width: 530px;
-    margin: 0px 24px;
+    margin: 10px 24px;
     border: 1px solid #33A8DB;
     background-color: #252525;
     padding: 16px;
     border-radius: 100px;
-    box-shadow: inset-5px 6px 8px rgba(0, 0, 0, 0.705);
-
-
+    box-shadow: inset -5px 6px 8px rgba(0, 0, 0, 0.705);
 
 }
 
 #course-content .modules-list .module span {
     color: #33A8DB;
+}
+
+
+#transform-world {
+    height: 560px;
+    background-size: cover;
+    background-image: url(../images/woman-code.png);
+    background-attachment: fixed;
+    border-bottom: 1px solid #33A8DB80;
+    border-top: 1px solid #33A8DB80;
+
+}
+
+#transform-world p {
+    display: block;
+    
+    font-family: "Raleway";
+    font-weight: 900px;
+    font-size: 50px;
+    text-transform: lowercase;
+    max-width: 250px;
+    line-height: 47px;
+    color: white;
+    text-shadow: 3px 2px #33A8DB;
 }
