@@ -5,12 +5,12 @@
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 body {
     font-family: "Raleway", Arial, Helvetica, sans-serif;
     background-color: black;
-    display: block;
 }
 
 header {
@@ -88,13 +88,8 @@ main h2 {
     margin-bottom: 24px;
 }
 
-main p {
-    display: block;
-    color: white;
-    margin: 0px;
-}
-
   #course-content {
+    color: white;
     margin-top: 80px;
     margin-bottom: 20px;
     width: 100vw;
@@ -110,7 +105,6 @@ main p {
 }
 
 #course-content .modules-list .module {
-    color: white;
     width: 530px;
     margin: 10px 24px;
     border: 1px solid #33A8DB;
@@ -133,14 +127,13 @@ main p {
     background-attachment: fixed;
     border-bottom: 1px solid #33A8DB80;
     border-top: 1px solid #33A8DB80;
+    padding: 200px;
+    
 
 }
 
 #transform-world p {
-    display: block;
-    
-    font-family: "Raleway";
-    font-weight: 900px;
+    font-weight: 900;
     font-size: 50px;
     text-transform: lowercase;
     max-width: 250px;
