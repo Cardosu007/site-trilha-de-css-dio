@@ -71,20 +71,17 @@ header button {
     padding: 16px 32px;
 }
 
-main {
-
-}
-
 #course-content {
     margin-top: 80px;
     margin-bottom: 20px;
     width: 100vw;
-    height: 250px;
+    height: 350px;
     text-align: center;
 }
 
 section {
     margin: 100px auto;
+    unicode-bidi: isolate;
 }
 
 main h2 {
@@ -98,8 +95,35 @@ main h2 {
     margin-bottom: 24px;
 }
 
+div {
+    display: block;
+}
+
 main p {
+    display: block;
     color: white;
-    box-sizing: ;
+    box-sizing: border-box;
     margin: 0px;
+}
+
+#course-content .modules-list {
+    margin: 24px 0px;
+}
+
+#course-content .modules-list .module {
+    color: white;
+    width: 530px;
+    margin: 0px 24px;
+    border: 1px solid #33A8DB;
+    background-color: #252525;
+    padding: 16px;
+    border-radius: 100px;
+    box-shadow: inset-5px 6px 8px rgba(0, 0, 0, 0.705);
+
+
+
+}
+
+#course-content .modules-list .module span {
+    color: #33A8DB;
 }
